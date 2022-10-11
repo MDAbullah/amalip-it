@@ -18,7 +18,7 @@
     background-color:navy ;
     border: 1px solid rgb(138, 135, 135);
     border-radius: 5px;
-    margin-left: 5px;
+   
  
     
 }
@@ -26,11 +26,7 @@
     background-color:rgba(51, 22, 238, 0.434);
 }
     
-.menu{
-margin-left: -0px;
-margin-right: -10px;
 
-}
 .btn{
    margin-left: 1500px;
 
@@ -78,7 +74,9 @@ margin-right: -10px;
     justify-content: space-between;
 }
 .paragraph-1{
-    font-size: 69px;
+    font-size: 58px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgba(0, 0, 255, 0.553);
 }
 .paragraph-p{
     font-size: 27px;
@@ -130,4 +128,36 @@ margin-right: -10px;
     border: 1px solid black;
     color: black;
 }
+.box{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+padding: 5px;
+margin-top: 250px;
 
+}
+.card{
+    padding: 15px;
+    box-shadow: 5px 5px 5px 5px rgba(18, 6, 242, 0.365);
+    margin: 40px;
+    
+}
+.card h2{
+    font-size: 30px;
+    text-transform: uppercase;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgba(0, 0, 0, 0.71);
+}
+.card p{
+    line-height: 30px;
+    font-size: 25px;
+    color: rgba(0, 0, 0, 0.568);
+}
+.middle h6{
+    font-size: 70px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgba(56, 2, 255, 0.687);
+}
+.middle p{
+    font-size: 40px;
+    color: rgba(0, 0, 0, 0.564);
+}
