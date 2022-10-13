@@ -110,8 +110,9 @@
 }
 .link:hover{
     background-color: rgba(255, 255, 255, 0.046);
-    border: 0.5px solid black;
+    border: 1px solid black;
     color: black;
+    padding: 9px;
     
    
 }
@@ -193,7 +194,7 @@ margin-top: 250px;
     font-size: 20px;
     font-weight: 700;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color: rgba(0, 0, 255, 0.68);
+    color: rgba(221, 0, 255, 0.68);
 }
 .box-1{
 display: grid;
@@ -250,4 +251,84 @@ margin-top: 10px;
     
   
     background-color:rgba(0, 0, 128, 0.895);
+}
+.section-last{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    margin-top: 200px;
+}
+.div-last{
+    margin: 20px;
+}
+.div-last h2{
+   
+    font-size: 50px;
+    text-transform: uppercase;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgba(79, 5, 253, 0.71);
+}
+.div-last p{
+    line-height: 30px;
+    font-size: 25px;
+    color: rgba(0, 0, 0, 0.84);
+
+}
+.div-last-1{
+    margin: 20px;
+}
+.div-last-1 h1{
+    font-size: 50px;
+    text-transform: uppercase;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgba(79, 5, 253, 0.71);
+}
+.div-last-1 p{
+    line-height: 40px;
+    font-size: 25px;
+    color: rgba(0, 0, 0, 0.84);
+}
+.div-last-2{
+    margin: 20px;
+}
+.div-last-2 h1{
+    font-size: 50px;
+    text-transform: uppercase;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgba(248, 0, 0, 0.838);
+}
+.div-last-2 p{
+    line-height: 40px;
+    font-size: 25px;
+    color: rgba(0, 0, 0, 0.84);
+}
+.div-last-2 input{
+    padding: 14px;
+    padding-left: 200px;
+    text-align: right;
+ 
+}
+.div-last-2 input:hover{
+    border: 2px solid rgb(0, 174, 255);
+}
+.div-last-2 a{
+    padding: 14px;
+    background-color: crimson;
+    color: white;
+    padding-right: 10px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+.div-last-2 a:hover{
+    background-color: rgba(220, 20, 60, 0.911);
+}
+.div-final{
+    text-align: center;
+
+}
+.div-final p{
+    font-size: 40px;
+    color: rgba(0, 0, 0, 0.491);
+    margin-top: 100px;
+
+    margin-bottom: 25px;
 }
